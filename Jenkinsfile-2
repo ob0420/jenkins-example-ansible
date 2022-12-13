@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'test-node' }
+  agent { label 'Built-In Node' }
   environment {
    ANSIBLE_PRIVATE_KEY=credentials('mariadb-private-key') 
   }
